@@ -1,11 +1,12 @@
-export interface Pizza {
+//type-Pizza
+export type PizzaType = {
   name: string;
   ingredients: string;
   price: number;
   photoName: string;
   soldOut: boolean;
-}
-export const pizzaData: Array<Pizza> = [
+};
+export const pizzaData: Array<PizzaType> = [
   {
     name: "Focaccia",
     ingredients: "Bread with italian olive oil and rosemary",
